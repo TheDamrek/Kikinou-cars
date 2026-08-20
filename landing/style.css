@@ -39,9 +39,13 @@ button{
     margin: 0 auto;
     z-index: 100;
 
-    .nav-links {
+.nav-links {
     display: flex;
-    gap: 35px; 
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 
