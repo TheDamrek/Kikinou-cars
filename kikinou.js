@@ -1,4 +1,16 @@
-const bmwDispo = [
+const phoneNumber1 = "213550810101";
+const phoneNumber2 = "213556959496";
+const emailAdress = "sbenkhoukha3@gmail.com";
+
+const ShowroomInfo = {
+    nom: "Kikinou Cars",
+    localisation: "P356+PWX, Birkhadem",
+    Mapslink: "https://maps.app.goo.gl/aCeEHWCjH3bmqnfVA",
+}
+
+
+
+export const BMW = [
 {
         id: "520d2026",
         mileage: "6000km",
