@@ -261,6 +261,7 @@ button{
         align-items: flex-start;
         flex-direction: column;
         position: relative;
+        cursor: pointer;
         
         &:hover{
             transform: translateY(-5px);
@@ -326,8 +327,108 @@ button{
 }
 
 .PourquoiChoisir {
-    min-height: 100vh;
+    max-height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F2547;
+
+    .ImgPC{
+        height: 80%;
+        width: 20%;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .TLR{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+         .TLRtitle{
+         #title1{
+            font-size: larger;
+            font-weight: 400;
+            margin-left: 100px;
+            text-transform: uppercase;
+         }
+         #title2{
+            font-size: larger;
+            font-weight: 400;
+            margin-left: 200px;
+            text-transform: uppercase;
+         }
+         }
+
+         .TLRparagraph{
+            object-fit: contain;
+            font-size: small;
+            font-weight: 200;
+            color: #9CA3AF;
+         }
+
+         .reasons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+
+            .Expertise{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .ImageH1exp{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .Pexp{
+                align-self: center;
+                align-content: center;
+            }
+            }
+
+            .Qualité{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+
+            .ImageH1Qua{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row; 
+                gap: 20px; 
+            }
+            .Pqua{}
+            }
+
+            .Dispo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .ImageH1dispo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .Pdispo{}
+            }
+
+         }
+    }
 }
 
 .reservation {
