@@ -412,6 +412,7 @@ button{
             flex-direction: column;
             gap: 1vw;
             transition: background-color 0.3s ease;
+            cursor: pointer;
 
             &:hover {
                 background-color: rgba(255, 255, 255, 0.06);
@@ -440,6 +441,7 @@ button{
                     font-size: clamp(1rem, 1.4vw, 1.6rem);
                     font-weight: 600;
                     margin: 0 0 0.5vw 0;
+                    cursor: text;
                 }
 
                 p {
@@ -448,6 +450,7 @@ button{
                     line-height: 1.5;
                     font-weight: 300;
                     margin: 0;
+                    cursor: text;
                 }
             }
         }
