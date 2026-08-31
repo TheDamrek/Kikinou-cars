@@ -621,6 +621,7 @@ button{
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     background-color: #0B1D33;
+    background: linear-gradient(to bottom, #000000 0%, #111317 15%, #111317 85%, #000000 100%);
 
 }
 
@@ -634,18 +635,20 @@ button{
     width: 100%;
     min-height: 500px;
     display: block;
+    background-color: transparent;
 }
 
 .location .additionnalInfo{
     width: 40%;
     min-width: 360px;
-    background-color: #111317;
+    background-color: transparent;
     padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     box-sizing: border-box;
     border-left: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(to bottom, #000000 0%, #111317 15%, #111317 85%, #000000 100%);
 }
 
 .location .exactlocation, .email, .phone {
