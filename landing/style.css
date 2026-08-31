@@ -519,8 +519,11 @@ button{
 
 
 .reservation .reservationwriting h1 {
-    color: white;
-    margin-bottom: 10px;
+
+    color: #FFFFFF;
+    font-size: clamp(2rem, 3.5vw, 4rem);
+    font-weight: 700;
+    margin: 0 0 1vw 0;
 }
 
 .reservation .reservationwriting p {
@@ -599,6 +602,14 @@ button{
     vertical-align: middle;
     object-fit: contain;
 
+}
+
+.reservation span{
+    color: #38BDF8;
+    padding: 0 4px;
+    background: linear-gradient(to top, rgba(9, 35, 47, 0.25) 0%, rgba(56, 189, 248, 0.25) 100%);
+    padding: 4px 10px;
+    border-radius: 4px;
 }
 
 .footer {
