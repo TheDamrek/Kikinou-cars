@@ -500,8 +500,88 @@ button{
 
 
 .reservation {
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 40px;
+    box-sizing: border-box;
+
+}
+
+.reservation .reservationmethods {
+    display: flex;
+    gap: 25px;
+
+            @media (max-width: 640px) {
+            flex-direction: column;
+            width: 100%;
+            max-width: 320px;
+            gap: 15px;
+        }
+}
+
+.reservation .PHONEcontact {
+    border: solid #0F2547 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 15px 40px;
+    background-color: #1C69D4;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.reservation .PHONEcontact:hover {
+    transform: scale(1.05);
+    background-color: #0F2547;
+}
+
+.reservation .WTSPcontact {
+    border: #0F2547 solid 1px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 15px 40px;
+    background-color: #25D366;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.reservation .WTSPcontact:hover {
+    transform: scale(1.05);
+    background-color: #1c9a4a;
+}
+
+.reservation .PHONEcontact a, 
+.reservation .WTSPcontact a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+}
+
+.reservation .PHONEcontact img, 
+.reservation .WTSPcontact img {
+    width: 16px; 
+    height: 16px;
+    object-fit: contain;
+    display: inline-block;
+
 }
 
 .footer {
