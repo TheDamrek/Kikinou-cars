@@ -774,6 +774,11 @@ button{
     padding: 40px 5vw;
 }
 
+.copyright{
+    background-color: #111317;
+    padding: 40px 5vw;
+}
+
 @media (max-width: 900px) {
     .carcard-grid {
         grid-template-columns: 1fr;
